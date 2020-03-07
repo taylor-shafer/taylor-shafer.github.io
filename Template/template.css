@@ -73,4 +73,5 @@ img:not(.photo) {
 	text-align: center;
 	margin-top: 120px;
 	margin-bottom: 20px;
+	font-size: .5em;
 }
