@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Taylor S. Shafer - Writing</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+	
+	<body>
+		<div id = "wrapper"  style="opacity:0">
+      <div id="header"></div>
+		<div text-align:"center" style="margin-left:37%;margin-right:33%;margin-bottom:25px;">
+			<i>Author's note: These are mostly older pieces (including from high school or university assignments) that I appreciate but which are unlikely to find publication elsewhere. Feel free to browse.</i>
+		</div>
+   
+		<div align="center" id="contentBox" style="margin:0px auto; width:70%">
+		
+		    <div id="column1" style="float:left; margin:0; margin-bottom:100px;width:50%;">
+			<h3><u>Poems</u></h3>
+			<p><a href="../Writing/awh.html">American Haiku</a></p>
+			<p><a href="../Writing/he_runs.html">He Runs</a></p>
+			<p><a href="../Writing/telescope.html">Looking Through the Wrong End of a Telescope</a></p>
+			<p><a href="../Writing/nts.html">Night-time on a Saturday</a></p>
+		</div>
+
+		    <div id="column2" style="float:left; margin:0;width:50%;">
+		     <h3><u>Prose</u></h3>
+		     <p><a href="../Writing/creation.html">The Creation, Parts I and II (script)</a></p>
+		    </div>
+		</div>
+   
+		<div id="footer" style="clear:left;"></div>
+		<script>
+			$(document).ready(function(){
+				$('#header').load('../Template/header.html'); });
+			$(document).ready(function(){
+				$('#footer').load('../Template/footer.html'); });
+			$("#wrapper").delay(250).animate({"opacity": "1"}, 250);
+		</script>
+		</div>
+	</body>
+</html>

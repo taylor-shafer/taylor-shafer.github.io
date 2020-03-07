@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /*.pdf$
+Disallow: /Template/
+
+Sitemap: http://www.taylorshafer.com/sitemap.xml

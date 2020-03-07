@@ -1,0 +1,10 @@
+@media screen and (min-width: 600px) {
+  #intro {
+	margin-top: 50px;
+	margin-left: 50px;}}
+
+@media screen and (min-width: 800px) { 
+	#intro { 
+		margin-left: 250px;
+		width: 50%;
+		} }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Taylor S. Shafer - Projects</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="../index.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+	
+	<body>
+		<div id = "wrapper"  style="opacity:0">
+		<div id="header"></div>
+		<div id="intro">
+			The following projects, ordered by completion date (newest first), represent educational milestones.</br></br>
+			<p><a href="../CupidMe/cupid.html">Web Scraping: Python</a></p>
+			<p><a href="../Crypto/crypto.html">RSA Encryption and Decryption: C++</a></p>
+			<p><a href="../Crypto/HillCipher.html">Hill Cipher: C++</a></p>
+			<p><a href="../Keese/keese.html">Windows Keylogger: C++</a></p>
+			<p><a href="../TicTacToe/tictactoe.html">Tic-Tac-Toe: x86 MASM</a></p>
+		</div>
+		
+		<div id="footer"></div>
+		<script>
+			$(document).ready(function(){
+				$('#header').load('../Template/header.html'); });
+			$(document).ready(function(){
+				$('#footer').load('../Template/footer.html'); });
+			$("#wrapper").delay(250).animate({"opacity": "1"}, 250);
+		</script>
+		</div>
+	</body>
+</html>

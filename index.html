@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Taylor S. Shafer</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+	
+	<body>
+		<div id ="wrapper"  style="opacity:0">
+		<div id="header"></div>
+		<div id="intro">
+			<p>Welcome to the official website of science fiction author Taylor S. Shafer.</p>
+			<p>Taylor has academic backgrounds in computer science, computer security, literature, and history. He lives in Easton, PA with his loving family of hamsters. To contact Taylor or subscribe to his mailing list, e-mail <a href="mailto: tshafer.books@gmail.com">tshafer.books@gmail.com</a>.</p>
+			<br><p><b>Coming soon</b>: The Castoff, a new post-apocalyptic western for young adults.</p>
+			<div class="img"><img src="../Assets/Castoff_Cover-Small.png"></div>
+			<p>Sixteen-year-old Garrick is never far from his trusty revolver or his crippling anxiety. While most people live in the utopian enclaves, walled cities built on the ruins of the old world, the lonely cowboy avoids civilization whenever possible.</p>
+			<p>But he can't avoid fate. Garrick narrowly escapes a suspicious explosion that kills his father and draws the wrath of ancient war machines known as the Arcadian Crows. Pursued by murderous conspirators as well as the relentless Crows, he flees into the Louisiana wasteland.</p>
+			<p>Garrick soon finds himself alone save for the company of his loyal hamster Seven. The grief and confusion following his father's death is almost too much to bear. He can't run forever, and he'll need help to stand a chance against his pursuers.</p>
+			<p>There's just one more problem. To Garrick, the only thing scarier than confronting the Crows is talking to the pretty girl who knows their secrets.</p>
+		</div>
+
+		<div id="footer"></div>
+		
+		<div style="font-size:.5em;text-align:center"
+		<a href="../index.html">Home</a>
+		
+		<script>
+		$(document).ready(function(){
+			$('#header').load('../Template/header.html'); });
+		$(document).ready(function(){
+			$('#footer').load('Template/footer.html'); });
+		$("#wrapper").delay(250).animate({"opacity": "1"}, 250);
+		</script>
+		</div>
+	</body>
+</html>
